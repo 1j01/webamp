@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Webamp &bull; Winamp 2 in your browser</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Winamp 2.9 reimplemented in HTML5 and JavaScript" />
+    <meta property="og:title" content="Webamp &bull; Winamp in your browser" />
+    <meta property="og:description" content="Winamp 2.9 reimplemented in HTML5 and JavaScript" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://webamp.org" />
+    <meta property="og:image" content="https://webamp.org/images/preview-42304ea56f49c60e3d2c6c97d1bdddeb.png" />
+    <link rel='stylesheet' type='text/css' href="/css/page-1f32969bed4f100811ba55f10f284cc8.css" />
+    <link rel="shortcut icon" sizes="16x16 32x32" href="/images/favicon-0cc27932e7d5cbda2849b27e6e6dc3c8.ico">
+
+    <!-- See https://goo.gl/OOhYW5 -->
+    <!--
+    The manifest.json file is generated and injected by `webpack-pwa-manifest`
+    <link rel="manifest" href="./manifest.json">
+    -->
+
+    <!-- See https://goo.gl/qRE0vM -->
+    <meta name="theme-color" content="#4b4b4b">
+
+    <!-- Add to homescreen for Chrome on Android. Fallback for manifest.json -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Winamp">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Winamp">
+
+    <!-- Homescreen icons -->
+    <link rel="apple-touch-icon" href="/images/manifest/icon-48x48-67470808290acc080f2d154fd1df70d1.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/manifest/icon-72x72-9d9aaf3f4dad41359616e32e082dc71c.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="/images/manifest/icon-96x96-44fece775401fd6184d71022778b4edd.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/manifest/icon-144x144-06bb87f22f8080f239f096e856435678.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/images/manifest/icon-192x192-fd139d3437e0cad44d05f85b226a24d7.png">
+
+    <!-- Tile icon for Windows 8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="/images/manifest/icon-144x144-06bb87f22f8080f239f096e856435678.png">
+    <meta name="msapplication-TileColor" content="#4b4b4b">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Load and register service worker that adds offline support -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/service-worker.js');
+        });
+      }
+    </script>
+<meta name="theme-color" content="#4b4b4b" /><link rel="manifest" href="/manifest.60fc98cc18ea0b3ab073cda74610efa1.json" /><link rel="mask-icon" href="/images/manifest/icon_513x513.1f27cb4bba614c00bf595696efa4435d.svg" /></head>
+
+<body>
+    <div id='app'>
+        <div id="loading">
+            Loading<span class="ellipsis-anim"><span>.</span><span>.</span><span>.</span></span>
+        </div>
+    </div>
+    <div id='browser-compatibility'>
+        <p>Your browser does not support the features we need.</p>
+        <p>Try using the most recent version of Chrome, Firefox, Safari or Edge.</p>
+    </div>
+    <p class='about'>
+        <a href='mailto:jordan@jordaneldredge.com?subject=Webamp%20Feedback'>Feedback</a> |
+        <a href='https://github.com/captbaritone/webamp'>GitHub</a>
+    </p>
+    <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="7py29249dpeddu8"></script>
+    <!-- Scripts get injected by html-webpack-plugin -->
+<script type="text/javascript" src="/webamp-a170d66eb5c481ec1c15.js"></script></body>
+
+</html>
